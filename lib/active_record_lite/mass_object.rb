@@ -1,5 +1,5 @@
 class MassObject
-  def self.set_attrs(*attributes)
+  def self.my_attr_accessible(*attributes)
   end
 
   def self.attributes
