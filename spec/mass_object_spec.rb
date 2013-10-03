@@ -20,7 +20,3 @@ describe MassObject do
     obj.y.should == :y_val
   end
 end
-
-# Write your own tests as you need!
-obj = MyMassObject.new(:x => :x_val, :y => :y_val)
-p obj
