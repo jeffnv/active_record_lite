@@ -11,11 +11,13 @@ describe SQLObject do
     class TestCat < SQLObject
       set_table_name("cats")
       my_attr_accessible(:id, :name, :owner_id)
+      my_attr_accessor(:id, :name, :owner_id)
     end
 
     class TestHuman < SQLObject
       set_table_name("humans")
       my_attr_accessible(:id, :fname, :lname, :house_id)
+      my_attr_accessor(:id, :fname, :lname, :house_id)
     end
   end
 
